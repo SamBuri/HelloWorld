@@ -1,0 +1,2 @@
+Publuic class Lab{
+}
