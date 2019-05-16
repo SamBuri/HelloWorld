@@ -1,4 +1,4 @@
-Publuic class Lab{
+public class Lab{
   private String message
   public Lab(){
   }
