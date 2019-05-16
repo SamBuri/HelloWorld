@@ -27,4 +27,4 @@ namespace Shapes
 }
 
 
-Sam Nturanabo is stupid
+Sam Nturanabo is the dumbest friend I have
