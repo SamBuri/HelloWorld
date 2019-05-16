@@ -23,6 +23,16 @@ namespace Shapes
         {
             return Math.PI* Math.Pow(Radius,2.0);
         }
+private String mainBabe(){return ""Aggie;}
+
+    private List Babes()
+        {
+            List list = new ArrayList()
+            babes.add(mainBabe());
+            babes.add("Babes");
+            babesadd("Suzie")
+           return babes;
+        }
     }
 }
 
