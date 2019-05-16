@@ -7,7 +7,13 @@ public class Lab{
    return "He is an Idiot"
 }
 
-private String Sam(){
-   return "He is the best guy in the word"
+private String Character(string Name){
+
+if name = Sam
+   return null
+
+else if name = Agatha
+   return "Mother to sam" 
 }
+
 }
