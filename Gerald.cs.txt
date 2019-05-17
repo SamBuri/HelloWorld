@@ -23,8 +23,21 @@ namespace Shapes
         {
             return 15000;
         }
+
+private String mainBabe(){return ""Aggie;}
+
+    private List Babes()
+        {
+            List list = new ArrayList()
+            babes.add(mainBabe());
+            babes.add("Babes");
+            babesadd("Suzie")
+           return babes;
+        }
     }
 }
 
 
-Sam Nturanabo is stupid
+Sam Nturanabo is the dumbest friend I have
+
+Sam Nturanabo is a good kid
