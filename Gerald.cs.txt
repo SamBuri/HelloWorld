@@ -21,7 +21,7 @@ namespace Shapes
 
         public override double Area()
         {
-            return Math.PI* Math.Pow(Radius,2.0);
+            return 15000;
         }
 
 private String mainBabe(){return ""Aggie;}
