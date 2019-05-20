@@ -17,3 +17,5 @@ else if name = Agatha
 }
 
 }
+
+private string levelOfmadness (int age, string name){}

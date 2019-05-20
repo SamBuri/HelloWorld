@@ -1,5 +1,9 @@
 Mukiibi
 
+<<<<<<< HEAD
+Then i changed it
+=======
 This is my first change
 
 Bogere is sleeping
+>>>>>>> b332e02b97360f3a6421ebe05fae3dcc4d487495
