@@ -1,0 +1,787 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SyncSoft.Common.SQL
+</name>
+</assembly>
+<members>
+<member name="P:SyncSoft.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SyncSoft.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SyncSoft.My.Resources.Resources.SearchObjects">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SyncSoft.My.Resources.Resources.Selected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SyncSoft.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.Control,System.Int32,System.Boolean,System.String,System.String,System.String)">
+	<summary>
+ Loads itemised data into the supplied control from Lookup Table, 
+ that can be filtered via data ID or data description
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<param name="dataID"></param>
+	<param name="dataDes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.Control,System.Int32,System.Boolean,System.String)">
+	<summary>
+ Loads itemised data into the supplied control from Lookup Table. supplied column name will be displayed
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.Control,System.Int32,System.Boolean)">
+	<summary>
+ Loads itemised data into the supplied control from Lookup Table.
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Loads itemised data into the supplied control from Lookup Table.
+ and displays the default
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.DataGridViewComboBoxColumn,System.Int32,System.Boolean,System.String,System.String)">
+	<summary>
+ Loads itemised data into the supplied comboBox Column from Lookup Table, 
+ that can be filtered via data ID or data description
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<param name="dataID"></param>
+	<param name="dataDes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.DataGridViewComboBoxColumn,System.Int32,System.Boolean)">
+	<summary>
+ Loads itemised data into the supplied comboBox Column from Lookup Table.
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataIn(System.Windows.Forms.DataGridViewComboBoxColumn,System.Int32)">
+	<summary>
+ Loads itemised data into the supplied comboBox Column from Lookup Table.
+ and displays the default
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="objectID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataCombo(System.Windows.Forms.Control,System.Int32,System.Boolean,System.String,System.String)">
+	<summary>
+ Loads data into the supplied combo control from Lookup Table, 
+ that can be filtered via data ID or data description.
+ Both Display and Value Member are populated
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<param name="dataID"></param>
+	<param name="dataDes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataCombo(System.Windows.Forms.Control,System.Int32,System.Boolean)">
+	<summary>
+ Loads data into the supplied combo control from Lookup Table.
+ Both Display and Value Member are populated
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataCombo(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Loads data into the supplied combo control from Lookup Table.
+ Both Display and Value Member are populated and displays the default
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataCombo(System.Windows.Forms.DataGridViewComboBoxColumn,System.Int32,System.Boolean,System.String,System.String)">
+	<summary>
+ Loads data into the supplied column combobox control from Lookup Table, 
+ that can be filtered via data ID or data description. 
+ Both Display and Value Member are populated
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<param name="dataID"></param>
+	<param name="dataDes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataCombo(System.Windows.Forms.DataGridViewComboBoxColumn,System.Int32,System.Boolean)">
+	<summary>
+ Loads data into the supplied column combobox control from Lookup Table. 
+ Both Display and Value Member are populated
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="objectID"></param>
+	<param name="showDefault"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.LoadLookupDataCombo(System.Windows.Forms.DataGridViewComboBoxColumn,System.Int32)">
+	<summary>
+ Loads data into the supplied column combobox control from Lookup Table. 
+ Both Display and Value Member are populated and displays the default
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="objectID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.GetLookupDataID(System.Int32,System.String)">
+	<summary>
+ Gets Lookup Data ID, corresponding to the supplied data description!
+ </summary>
+	<param name="objectID"></param>
+	<param name="DataDes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Lookup.SQL.Methods.LookupSQL.GetLookupDataDes(System.String)">
+	<summary>
+ Gets Lookup data description, corresponding to the supplied Data ID!
+ </summary>
+	<param name="dataID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Search.SQL.SearchObjects.GetSearchObjects(System.Nullable{System.Boolean},System.String)">
+	<summary>
+ Returns Search Objects as per set search include and object name
+ </summary>
+	<param name="searhInclude"></param>
+	<param name="objectName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Search.SQL.SearchObjects.GetSearchObjects(System.String)">
+	<summary>
+ Returns the serach Object corresponding to object name
+ </summary>
+	<param name="objectName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Search.SQL.SearchObjects.GetSearchObjects(System.Boolean)">
+	<summary>
+ Returns all serach Objects corresponding to search include
+ </summary>
+	<param name="searhInclude"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Search.SQL.SearchObjects.GetSearchObjects">
+	<summary>
+ Returns all serach Objects
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SearchFilter.FormatINCreterion(System.String)">
+	<summary>
+ Formats the value to an IN clause form of SQL
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.Control,SyncSoft.Security.AccessRights)">
+	<summary>
+ Applies control level security
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="_accessRights"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.ToolStripMenuItem,SyncSoft.Security.AccessRights)">
+	<summary>
+ Applies security to the tool strip menu item
+ </summary>
+	<param name="container"></param>
+	<param name="_accessRights"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.ToolStrip,SyncSoft.Security.AccessRights)">
+	<summary>
+ Applies security to the entire tool strip
+ </summary>
+	<param name="container"></param>
+	<param name="_accessRights"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.ToolStripItem,SyncSoft.Security.AccessRights)">
+	<summary>
+ Applies security to the sub items of the tool strip item container
+ </summary>
+	<param name="container"></param>
+	<param name="_accessRights"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.ContextMenuStrip,SyncSoft.Security.AccessRights)">
+	<summary>
+ Applies security to the Context Menu Strip
+ </summary>
+	<param name="container"></param>
+	<param name="_accessRights"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.DataGridViewColumn,SyncSoft.Security.AccessRights,System.String)">
+	<summary>
+ Applies control level security using tag 
+ </summary>
+	<param name="gridColumn"></param>
+	<param name="_accessRights"></param>
+	<param name="tag"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Security.Apply(System.Windows.Forms.DataGridViewColumn,SyncSoft.Security.AccessRights)">
+	<summary>
+ Applies control level security
+ </summary>
+	<param name="gridColumn"></param>
+	<param name="_accessRights"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Tasks.BackupDatabase(System.String,System.String,System.String)">
+	<summary>
+ Backup SQL database
+ </summary>
+	<param name="backupFolder"></param>
+	<param name="databaseName"></param>
+	<param name="_Path"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Tasks.RunScripts(System.Collections.Generic.List{System.String})">
+	<summary>
+ Executes SQL Scripts List against a data store
+ </summary>
+	<param name="scriptList"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Tasks.RunScripts(System.String)">
+	<summary>
+ Executes SQL Scripts against a data store
+ </summary>
+	<param name="script"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Tasks.DeleteMany(System.String,System.String)">
+	<summary>
+ Deletes one or more item(s) from the supplied object name as filtered in the where clause
+ </summary>
+	<param name="objectName"></param>
+	<param name="where"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.Tasks.UpdateKeys(System.String,System.String,System.String)">
+	<summary>
+ Updates restricted key(s) of the supplied object as filtered by the where clause
+ </summary>
+	<param name="objectName"></param>
+	<param name="_Set"></param>
+	<param name="where"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.SpecialEdits.GetSpecialEdits(System.String)">
+	<summary>
+ Gets Special Edits for supplied objectname
+ </summary>
+	<param name="objectName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.SpecialEdits.GetSpecialEdits">
+	<summary>
+ Gets All special edits
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.ExchangeRates.GetExchangeRates(System.String)">
+	<summary>
+ Gets exchange rate for supplied currency ID
+ </summary>
+	<param name="currenciesID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Classes.ExchangeRates.GetExchangeRates">
+	<summary>
+ Gets exchange rates for all currencies
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.FormatText(System.String,System.String,System.String)">
+	<summary>
+ Formats auto-number by inserting format character, which defaults to '-' if not supplied
+ eg. 0600001001 becomes 06-00001-001
+ </summary>
+	<param name="text"></param>
+	<param name="objectName"></param>
+	<param name="autoColumnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.RevertAutoNumber(System.String,System.String)">
+	<summary>
+ Removes format character from text eg. 06-00001-001 becomes 0600001001
+ </summary>
+	<param name="text"></param>
+	<param name="autoColumnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedIn(System.Windows.Forms.Control,System.Int32,System.Char)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the supplied split character.
+  First retrieves DataID for supplied objectID.
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="splitCHAR"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedIn(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the default split character ","
+ . First retrieves DataID for supplied objectID
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedIn(System.Windows.Forms.Control,System.Char)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the supplied split character
+ . Uses entered description
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="splitCHAR"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedIn(System.Windows.Forms.Control)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the default split character ","
+ . Uses entered description
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedInAtleastOne(System.Windows.Forms.Control,System.Int32,System.String,System.Char)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the supplied split character
+  and ensuring at least one item is selected. First retrieves DataID for supplied objectID
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="splitCHAR"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedInAtleastOne(System.Windows.Forms.Control,System.Int32,System.String)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the default split character ","
+ and ensuring at least one item is selected. First retrieves DataID for supplied objectID
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="objectID"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedInAtleastOne(System.Windows.Forms.Control,System.String,System.Char)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the supplied split character
+ and ensuring at least one item is selected. Uses entered description
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.StringToSplitSelectedInAtleastOne(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Merges data from the supplied control by separating selected items with the default split character ","
+ and ensuring at least one item is selected. Uses entered description
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.DoTransactions``1(System.Collections.Generic.List{SyncSoft.Common.SQL.Classes.TransactionList{``0}})">
+	<summary>
+ Performs all specified actions such as Save, Update and Delete on a list of objects of type
+  TransactionList having a list of objects of type DBConnect and returns number of records affected. 
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="_List"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.SaveAll``1(System.Collections.Generic.List{``0},System.Boolean)">
+	<summary>
+ Saves all objects of type DBConnect in the supplied list and returns number of records saved. 
+ If IsTransaction is true, all data will save or all will fail. Otherwise only data with no error(s) will save.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="_List"></param>
+	<param name="IsTransaction"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.SaveAll``1(System.Collections.Generic.List{``0})">
+	<summary>
+ Saves all objects of type DBConnect in the supplied list and returns number of records saved. 
+ Only data with no error(s) will save.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="_List"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.UpdateAll``1(System.Collections.Generic.List{``0},System.Boolean)">
+	<summary>
+ Updates all objects of type DBConnect in the supplied list and returns number of records updated. 
+ If IsTransaction is true, all data will update or all will fail. Otherwise only data with no error(s) will update.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="_List"></param>
+	<param name="IsTransaction"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.UpdateAll``1(System.Collections.Generic.List{``0})">
+	<summary>
+ Updates all objects of type DBConnect in the supplied list and returns number of records updated. 
+ Only data with no error(s) will update.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="_List"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.LogCommand(SyncSoft.Common.SQL.Enumerations.Action,System.String)">
+	<summary>
+ Log Action in the Audit Trial
+ </summary>
+	<param name="act"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetCurrentLicense(System.String)">
+	<summary>
+ Gets the Current License
+ </summary>
+	<param name="licenseNo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetAllowUserSaveLoginPassword">
+	<summary>
+ Gets set option for Allow User Save Login Password
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetNullDateValue">
+	<summary>
+ Gets set option for Null Date Value 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetDecimalPlaces">
+	<summary>
+ Gets set set option for number of decimal places
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetEnableAuditTrail">
+	<summary>
+ Gets set option for Enable Audit Trail
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetUserIdleDuration">
+	<summary>
+ Gets set option for user idle duration
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetCurrency">
+	<summary>
+ Gets set option for currency
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetExchangeRateBuying(System.String)">
+	<summary>
+ Gets buying exchange rate for supplied currency against base currency
+ </summary>
+	<param name="currenciesID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetExchangeRateSelling(System.String)">
+	<summary>
+ Gets selling exchange rate for supplied currency against base currency
+ </summary>
+	<param name="currenciesID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.GetPasswordComplexity">
+	<summary>
+ Gets set option for password complexity
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.LoadSearchConditions(System.String,System.String,System.Windows.Forms.Control,System.Boolean)">
+	<summary>
+ Loads the supplied querry data (XML) into the supplied control such as ListBox. showErrorMessage is for suplied Object name not contained in querry data
+ </summary>
+	<param name="queryData"></param>
+	<param name="objectName"></param>
+	<param name="sourceControl"></param>
+	<param name="showErrorMessage"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.LoadSearchConditions(System.String,System.String,System.Windows.Forms.Control)">
+	<summary>
+ Loads the supplied querry data (XML) into the supplied control such as ListBox
+ </summary>
+	<param name="queryData"></param>
+	<param name="objectName"></param>
+	<param name="sourceControl"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.SQL.Methods.CommonSQL.IsPasswordComplexityValid(System.String)">
+	<summary>
+ Returns true if password meets set password complexity level else returns false
+ </summary>
+	<param name="password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQLDb.DBConnect.SetConString(SyncSoft.SQLDb.SQLConnectionMode,System.String)">
+	<summary>
+ Sets the MS SQL connection mode and connection string
+ </summary>
+	<param name="_SQLConnectionMode"></param>
+	<param name="_ConString"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQLDb.DBConnect.SetConString(SyncSoft.SQLDb.SQLConnectionMode)">
+	<summary>
+ Sets the MS SQL connection mode
+ </summary>
+	<param name="_SQLConnectionMode"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQLDb.DBConnect.Save">
+	<summary>
+ Saves the objects data and if successful true is returned otherwise false
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQLDb.DBConnect.Update">
+	<summary>
+ Updates the object's data and returns message telling the number of records updated
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQLDb.DBConnect.Delete">
+	<summary>
+ Deletes Object data and returns a message telling you the number of records deleted.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQLDb.DBConnect.SetLogObject(System.String)">
+	<summary>
+ Sets the LogObjectName for log in the Audit Trail
+ </summary>
+	<param name="LogObjectName"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.QuickSearch.#ctor(System.String,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn,System.Int32)">
+	<summary>
+ Populates grid at supplied row index
+ </summary>
+	<param name="objectName"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<param name="rowIndex"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.QuickSearch.#ctor(System.String,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Populates grid at new row index
+ </summary>
+	<param name="objectName"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SelectDateTime.#ctor(System.DateTime,System.String,System.DateTime,System.DateTime,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn,System.Int32)">
+	<summary>
+ Populates grid at supplied row index
+ </summary>
+	<param name="defaultValue"></param>
+	<param name="displayName"></param>
+	<param name="minimumDate"></param>
+	<param name="maximumDate"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<param name="rowIndex"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SelectDateTime.#ctor(System.DateTime,System.String,System.DateTime,System.DateTime,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Populates grid at new row index
+ </summary>
+	<param name="defaultValue"></param>
+	<param name="displayName"></param>
+	<param name="minimumDate"></param>
+	<param name="maximumDate"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SelectDateTime.#ctor(System.DateTime,System.String,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn,System.Int32)">
+	<summary>
+ Populates grid at new row index
+ </summary>
+	<param name="defaultValue"></param>
+	<param name="displayName"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<param name="rowIndex"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SelectDateTime.#ctor(System.DateTime,System.String,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Populates grid at new row index
+ </summary>
+	<param name="defaultValue"></param>
+	<param name="displayName"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SelectItem.#ctor(System.String,System.String,System.String,System.Data.DataTable,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn,System.Int32)">
+	<summary>
+ Populates grid at supplied row index
+ </summary>
+	<param name="objectCaption"></param>
+	<param name="displayCode"></param>
+	<param name="displayName"></param>
+	<param name="dataSource"></param>
+	<param name="itemFullName"></param>
+	<param name="itemCode"></param>
+	<param name="itemName"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<param name="rowIndex"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.SelectItem.#ctor(System.String,System.String,System.String,System.Data.DataTable,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Populates grid at new row index
+ </summary>
+	<param name="objectCaption"></param>
+	<param name="displayCode"></param>
+	<param name="displayName"></param>
+	<param name="dataSource"></param>
+	<param name="itemFullName"></param>
+	<param name="itemCode"></param>
+	<param name="itemName"></param>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.BackupDatabase.SetBackupDevice(System.String,System.String,System.String)">
+	<summary>
+ Set backup device
+ </summary>
+	<param name="backupFolder"></param>
+	<param name="databaseName"></param>
+	<param name="path"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.SQL.Win.Forms.Search.FormatINCreterion(System.String)">
+	<summary>
+ Formats the value to an IN clause form of SQL
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.Logins.NoLogin">
+	<summary>
+ Returns true if there is no login registered otherwise it returns false
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.Update">
+	<summary>
+ Override Update since it will be called at base class by all updating, saving and deleting calls
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.GetActiveUsers(System.String,System.String)">
+	<summary>
+ Returns only currently logged user
+ </summary>
+	<param name="loginID"></param>
+	<param name="clientMachine"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.GetActiveUsers">
+	<summary>
+ Returns all active users
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.Logon">
+	<summary>
+ Log On Active user
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.Logoff">
+	<summary>
+ Log Off Inactive and Idle user(s) 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.Kill(System.String,System.String)">
+	<summary>
+ Manual Log Off Active and Idle user(s) 
+ </summary>
+	<param name="loginID"></param>
+	<param name="clientMachine"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.Reset">
+	<summary>
+ Log Off Idle User(s)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.Activate">
+	<summary>
+ Activates active user
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.GetUserIdleDuration">
+	<summary>
+ Reurns Idle duration for the current user in minutes
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.GetUserNoLogins">
+	<summary>
+ Reurns No of Logins for the current user
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.SQL.ActiveUsers.HasActiveLogin(System.String)">
+	<summary>
+ Returns true if current user (Login ID) is active, else returns false
+ </summary>
+	<param name="loginID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

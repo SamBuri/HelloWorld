@@ -1,0 +1,6 @@
+EXEC sp_resetstatus [ClinicMaster];
+ALTER DATABASE [ClinicMaster] SET EMERGENCY
+DBCC checkdb([ClinicMaster])
+ALTER DATABASE [ClinicMaster] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+DBCC CheckDB ([ClinicMaster], REPAIR_ALLOW_DATA_LOSS)
+ALTER DATABASE [ClinicMaster] SET MULTI_USER

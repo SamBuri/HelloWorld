@@ -1,0 +1,16 @@
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.CMData.dll
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.CMData.pdb
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.CMData.xml
+C:\Projects\ClinicMaster\Classes\CMData\bin\AxInterop.GrFingerXLib.dll
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.Common.dll
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.Common.SQL.dll
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.Common.pdb
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.Common.xml
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.Common.SQL.pdb
+C:\Projects\ClinicMaster\Classes\CMData\bin\SyncSoft.Common.SQL.xml
+C:\Projects\ClinicMaster\Classes\CMData\obj\Debug\CMData.vbprojResolveAssemblyReference.cache
+C:\Projects\ClinicMaster\Classes\CMData\obj\Debug\SyncSoft.Resources.resources
+C:\Projects\ClinicMaster\Classes\CMData\obj\Debug\CMData.vbproj.GenerateResource.Cache
+C:\Projects\ClinicMaster\Classes\CMData\obj\Debug\SyncSoft.CMData.dll
+C:\Projects\ClinicMaster\Classes\CMData\obj\Debug\SyncSoft.CMData.xml
+C:\Projects\ClinicMaster\Classes\CMData\obj\Debug\SyncSoft.CMData.pdb

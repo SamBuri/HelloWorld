@@ -1,0 +1,2161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SyncSoft.Common
+</name>
+</assembly>
+<members>
+<member name="M:SyncSoft.Common.Win.Controls.DataNavigator.Clear">
+	<summary>
+ Clears the datatable associated with the control
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.DataNavigator.Navigate">
+	<summary>
+ Starts data navigation
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.DataNavigator.Navigate(System.String)">
+	<summary>
+ starts data navigation. The supplied column name will be looked up to populate current value
+ </summary>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.DataNavigator.Navigate(System.Int32)">
+	<summary>
+ starts data navigation at supplied start position.
+ </summary>
+	<param name="startPosition"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.DataNavigator.Navigate(System.String,System.Int32)">
+	<summary>
+ starts data navigation at supplied start position. The supplied column name will be looked up to populate current value
+ </summary>
+	<param name="columnName"></param>
+	<param name="startPosition"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ManageMenuItemsIn(System.Windows.Forms.ToolStripMenuItem,System.Boolean)">
+	<summary>
+ Disables or Enables the dropdown menu item(s) of the supplied menu item 
+ container depending upon the specified codition
+ </summary>
+	<param name="container"></param>
+	<param name="condition"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadProcess(System.Diagnostics.Process@,System.String,System.String)">
+	<summary>
+ Loads a process with a caption
+ </summary>
+	<param name="processName"></param>
+	<param name="fileName"></param>
+	<param name="caption"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadProcess(System.Diagnostics.Process@,System.String)">
+	<summary>
+ Loads a process with system caption
+ </summary>
+	<param name="processName"></param>
+	<param name="fileName"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CloseProcess(System.Diagnostics.Process@)">
+	<summary>
+ Closes an open process
+ </summary>
+	<param name="processName"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ErrorMessage(System.Exception)">
+	<summary>
+ Displays error message box for the supplied Exception (Ex)
+ </summary>
+	<param name="eX"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DeleteMessage(System.String)">
+	<summary>
+ Displays the Yes/No dialog box, with the supplied delete display message
+ </summary>
+	<param name="message"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DeleteMessage">
+	<summary>
+  Displays the Yes/No dialog box, with default delete display message
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.WarningMessage(System.String)">
+	<summary>
+ Displays the Yes/No dialog box, with the supplied warning display message
+ </summary>
+	<param name="message"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DisplayMessage(System.String)">
+	<summary>
+ Displays OK message with information icon
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DisplayMessage(System.String,System.Windows.Forms.MessageBoxIcon)">
+	<summary>
+ Displays OK message with supplied message box icon
+ </summary>
+	<param name="message"></param>
+	<param name="messageBoxIcon"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadChildForm(System.Windows.Forms.Form,System.Windows.Forms.Form)">
+	<summary>
+ creates and returns child form, if not yet created, 
+ otherwise activates and returns an already created child form
+ </summary>
+	<param name="parentForm"></param>
+	<param name="childForm"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetBirthDate(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns Birth Date for the supplied age corresponding to supplied day and month
+ </summary>
+	<param name="age"></param>
+	<param name="day"></param>
+	<param name="month"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetBirthDate(System.Int32,System.Int32)">
+	<summary>
+ Returns Birth Date for the supplied age corresponding to supplied day and sets month to Jan
+ </summary>
+	<param name="age"></param>
+	<param name="day"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetBirthDate(System.Int32)">
+	<summary>
+ Returns Birth Date for the supplied age, sets day to 1 and month to Jan
+ </summary>
+	<param name="age"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetAge(System.DateTime)">
+	<summary>
+ Returns Age for the supplied Birth Date
+ </summary>
+	<param name="birthDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SetBirthDateAge(SyncSoft.Common.Enumerations.BirthDateAge,System.Windows.Forms.DateTimePicker,SyncSoft.Common.Win.Controls.NumericBox,System.Int32,System.Int32)">
+	<summary>
+ Set age for a given birth date and vice versa
+ </summary>
+	<param name="enuBirthDateAge"></param>
+	<param name="birthDate"></param>
+	<param name="age"></param>
+	<param name="day"></param>
+	<param name="month"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SetBirthDateAge(SyncSoft.Common.Enumerations.BirthDateAge,System.Windows.Forms.DateTimePicker,SyncSoft.Common.Win.Controls.NumericBox)">
+	<summary>
+ Set age for a given birth date and vice versa at Jan 1
+ </summary>
+	<param name="enuBirthDateAge"></param>
+	<param name="birthDate"></param>
+	<param name="age"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ResetControlsIn(System.Windows.Forms.Control)">
+	<summary>
+ resets controls on a given container control (Panel, GroupBox and TabControl)
+ </summary>
+	<param name="container"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ValidateEntriesIn(System.Windows.Forms.Control,System.Windows.Forms.ErrorProvider)">
+	<summary>
+ Rises an error if the supplied container (Form, Panel, GroupBox or TabControl)
+ has controls with errors set by the supplied error provider
+ </summary>
+	<param name="container"></param>
+	<param name="errProvider"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ValidateEntriesIn(System.Windows.Forms.Control)">
+	<summary>
+ Rises an error if the supplied container (Form, Panel, GroupBox or TabControl)
+ has controls with errors set by the system error provider
+ </summary>
+	<param name="container"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ClearDataBindingsIn(System.Windows.Forms.Control)">
+	<summary>
+ Clears data bindings of the controls in the supplied container 
+ (Panel, GroupBox and TabControl)
+ </summary>
+	<param name="container"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.Copy(System.String,System.String,System.Boolean)">
+	<summary>
+ Copies a file from source to destination
+ </summary>
+	<param name="sourceFileName"></param>
+	<param name="destinationFileName"></param>
+	<param name="overwrite"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.Copy(System.String,System.String)">
+	<summary>
+ Copies a file from source to destination and overwrites it if it already exists
+ </summary>
+	<param name="sourceFileName"></param>
+	<param name="destinationFileName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetMonthNumber(System.String)">
+	<summary>
+ Returns a month number corresponding to the supplied month name
+ e.g 12 for December or Dec
+ </summary>
+	<param name="monthName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetMonthName(System.Int16,System.Boolean)">
+	<summary>
+ Returns a month name corresponding to the supplied month number
+ e.g February or Feb if shortName = true for 2
+ </summary>
+	<param name="monthNumber"></param>
+	<param name="shortName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetMonthName(System.Int16)">
+	<summary>
+ Returns a month name corresponding to the supplied month number
+ e.g February for 2
+ </summary>
+	<param name="monthNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetWeekNumber(System.String)">
+	<summary>
+ Returns a week number corresponding to the supplied week name
+ e.g 1 for Monday or Mon
+ </summary>
+	<param name="weekName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetWeekName(System.Int32,System.Boolean)">
+	<summary>
+ Returns a week name corresponding to the supplied week number
+ e.g Monday or Mon if shortName = true for 1
+ </summary>
+	<param name="weekNumber"></param>
+	<param name="shortName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetWeekName(System.Int32)">
+	<summary>
+ Returns a week name corresponding to the supplied week number
+ e.g Monday for 1
+ </summary>
+	<param name="weekNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToIntegerIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Indicates whether the entered data can convert to an Integer or not
+ if not, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToIntegerIn(System.Windows.Forms.Control)">
+	<summary>
+ Indicates whether the entered data can convert to an Integer or not
+ It displays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToSingleIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Indicates whether the entered data can convert to an Single or not
+ if not, it diplays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToSingleIn(System.Windows.Forms.Control)">
+	<summary>
+ Indicates whether the entered data can convert to an Single or not
+ if not, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToDecimalIn(System.Windows.Forms.Control,System.String,System.String)">
+	<summary>
+ Indicates whether the entered data can convert to an Decimal or not
+ if not, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="format"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToDecimalIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Indicates whether the entered data can convert to an Decimal or not
+ if not, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="format"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ToDecimalIn(System.Windows.Forms.Control)">
+	<summary>
+ Indicates whether the entered data can convert to a Decimal, system formated or not
+ if not, it diplays system error message 
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.NumericRangeIn(System.Windows.Forms.Control,System.Double,System.Double,System.String)">
+	<summary>
+ Indicates whether the entered data is in a given numeric range or not
+ if not, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="minimum"></param>
+	<param name="maximum"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.NumericRangeIn(System.Windows.Forms.Control,System.Double,System.Double)">
+	<summary>
+ Indicates whether the entered data is in a given numeric range or not
+ if not, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="minimum"></param>
+	<param name="maximum"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsCharacterInString(System.Windows.Forms.Control,System.Char)">
+	<summary>
+ Indicates whether a given character is in entered string or not
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="character"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsCharacterInString(System.Windows.Forms.Control)">
+	<summary>
+ Indicates whether a ' ' (space) character is in entered string or not
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsCharacterInString(System.String,System.Char)">
+	<summary>
+ Indicates whether a given character is in supplied text or not
+ </summary>
+	<param name="text"></param>
+	<param name="character"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsCharacterInString(System.String)">
+	<summary>
+ Indicates whether a ' ' (space) character is in supplied text or not
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsWordLetter(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Indicates whether the entered data is a word letter or not
+ if not, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsWordLetter(System.Windows.Forms.Control)">
+	<summary>
+ Indicates whether the entered data is a word letter or not
+ if not, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsOnlyLetter(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Indicates whether the entered data is letter only or not
+ if not, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsOnlyLetter(System.Windows.Forms.Control)">
+	<summary>
+ Indicates whether the entered data is letter only or not
+ if not, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.HasValidExpression(System.Windows.Forms.Control,System.String,System.String)">
+	<summary>
+ Indicates whether the entred data is a valid regural expression or not
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="_RegularExpression"></param>
+	<param name="message"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CapitalizeFirstLetterIn(System.Windows.Forms.Control)">
+	<summary>
+ Will capitalize the first letter of the entered word
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to enter a string that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Enforces you to enter a string that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Windows.Forms.ToolStripItem,System.String)">
+	<summary>
+ Enforces you to enter a string that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Windows.Forms.ToolStripItem)">
+	<summary>
+ Enforces you to enter a string that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ Enforces you to enter a string in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Enforces you to enter a string in the cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have a string in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have a string in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return empty string if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringMayBeEnteredIn(System.Windows.Forms.ToolStripItem)">
+	<summary>
+ Will return empty string if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return empty string if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return empty string if none in the data row; otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringValueEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringValueEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.StringValueMayBeEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it returns empty string
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerValueEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerValueEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerValueMayBeEnteredIn(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it returns supplied null integer value
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="nullIntegerValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerValueMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it returns supplied 0 integer value
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortValueEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortValueEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortValueMayBeEnteredIn(System.Windows.Forms.Control,System.Int16)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it returns supplied null Short value
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="nullShortValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortValueMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will retrieve the value member of the displayed member in the combo box
+ if no item is selected, it returns supplied 0 Short value
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringEnteredIn(System.Windows.Forms.Control,System.String,System.Char)">
+	<summary>
+ Will return the right portion of the entered string after the search character
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<param name="search"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Will return the right portion of the entered string after the &gt;, search character
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return the right portion of the entered string after the &gt;, search character
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to enter a date that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Enforces you to enter a date that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ Enforces you to enter a date value in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Enforces you to enter a date value in the grid cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have a date in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have a Date in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateMayBeEnteredIn(System.Windows.Forms.Control,System.DateTime)">
+	<summary>
+ Will return the supplied null date value if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="nullDateValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return the set system null date value if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.DateTime)">
+	<summary>
+ Will return supplied null date value if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="nullDateValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return system null date value if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateMayBeEnteredIn(System.Data.DataRow,System.String,System.DateTime)">
+	<summary>
+ Will return supplied null Date value if the data row value can't convert to Date; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="nullDateValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return system null Date value if the data row value can't convert to Date; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.TimeEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Time should be entered in the control and will be returned as text
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.TimeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Time should be entered in the control and will be returned as text
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.TimeMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Time may be entered in this control, if not, an empty string is returned
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to enter a date time that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Enforces you to enter a date time that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ Enforces you to enter a date or date time value in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Enforces you to enter a date or date time value in the grid cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have a date or date time in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have a date or date time in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return the set null date value if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return null date or date time value if none is entered; otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DateTimeMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return system null Date value if the data row value can't convert to date or date time; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to enter Short that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Enforces you to enter Short that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ Enforces you to enter a Short value in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Enforces you to enter an Short value in the grid cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have an Short in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have an Short in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortMayBeEnteredIn(System.Windows.Forms.Control,System.Int16)">
+	<summary>
+ Will return the supplied null Short value if the entered value can't convert to Short; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="nullShortValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return 0 if the entered value can't convert to Short; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Int16)">
+	<summary>
+ Will return the supplied null Short value if the cell value can't convert to Short; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="nullShortValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return 0 if the grid cell value can't convert to Short; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortMayBeEnteredIn(System.Data.DataRow,System.String,System.Int16)">
+	<summary>
+ Will return the supplied null Short value if the data row value can't convert to Short; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="nullShortValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShortMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return 0 if the data row value can't convert to Short; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to enter integer that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Enforces you to enter integer that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ Enforces you to enter an integer value in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Enforces you to enter an integer value in the grid cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have an integer in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have an integer in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerMayBeEnteredIn(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Will return the supplied null Integer value if the entered value can't convert to integer; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="nullIntegerValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return 0 if the entered value can't convert to Integer; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Int32)">
+	<summary>
+ Will return the supplied null Integer value if the cell value can't convert to integer; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="nullIntegerValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return 0 if the grid cell value can't convert to Integer; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerMayBeEnteredIn(System.Data.DataRow,System.String,System.Int32)">
+	<summary>
+ Will return the supplied null Integer value if the data row value can't convert to integer; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="nullIntegerValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IntegerMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return 0 if the data row value can't convert to Integer; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalEnteredIn(System.Windows.Forms.Control,System.Boolean,System.String)">
+	<summary>
+ Enforces you to enter decimal that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="allowNegative"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalEnteredIn(System.Windows.Forms.Control,System.Boolean)">
+	<summary>
+ Enforces you to enter decimal that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Boolean,System.String)">
+	<summary>
+ Enforces you to enter a decimal value in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="allowNegative"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Boolean)">
+	<summary>
+ Enforces you to enter a decimal value in the grid cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalEnteredIn(System.Data.DataRow,System.String,System.Boolean,System.String)">
+	<summary>
+ Enforces you to have a decimal in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="allowNegative"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalEnteredIn(System.Data.DataRow,System.String,System.Boolean)">
+	<summary>
+ Enforces you to have a decimal in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Windows.Forms.Control,System.Boolean,System.Decimal)">
+	<summary>
+ Will return the supplied null decimal value if the entered value can't convert to decimal; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="allowNegative"></param>
+	<param name="nullDecimalValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Windows.Forms.Control,System.Boolean)">
+	<summary>
+ Will return 0 if the entered value can't convert to decimal; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return 0 if the entered value can't convert to decimal; 
+ otherwise it returns what’s entered including a negative value
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Boolean,System.Decimal)">
+	<summary>
+ Will return the supplied null decimal value if the cell value can't convert to decimal; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="nullDecimalValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Boolean)">
+	<summary>
+ Will return 0 if the grid cell value can't convert to decimal; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return 0 if the grid cell value can't convert to decimal; 
+ otherwise it returns what’s entered including a negative value
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Data.DataRow,System.String,System.Boolean,System.Decimal)">
+	<summary>
+ Will return the supplied null decimal value if the data row value can't convert to decimal; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="allowNegative"></param>
+	<param name="nullDecimalValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Data.DataRow,System.String,System.Boolean)">
+	<summary>
+ Will return 0 if the data row value can't convert to decimal; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.DecimalMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return 0 if the data row value can't convert to decimal; 
+ otherwise it returns what’s entered including a negative value
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to enter single that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Enforces you to enter single that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ Enforces you to enter a single value in the grid cell that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Enforces you to enter a single value in the grid cell that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have a single in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have a single in the data row that it returns
+ if not entered, it diplays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleMayBeEnteredIn(System.Windows.Forms.Control,System.Single)">
+	<summary>
+ Will return the supplied null single value if the entered value can't convert to single; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="nullSingleValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Will return 0 if the entered value can't convert to single; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.Single)">
+	<summary>
+ Will return the supplied null single value if the cell value can't convert to single; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="nullSingleValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Will return 0 if the grid cell value can't convert to Single; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleMayBeEnteredIn(System.Data.DataRow,System.String,System.Single)">
+	<summary>
+ Will return the supplied null single value if the data row value can't convert to single; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="nullSingleValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SingleMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return 0 if the data row value can't convert to single; 
+ otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ returns true/false depending upon the control's check status
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn,System.String)">
+	<summary>
+ returns a true/false value that the grid cell can convert to
+ if it can't convert to true/false, it displays error message with caption
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ returns a true/false value that the grid cell can convert to
+ if it can't convert to true/false, it displays system error message
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ returns a true/false value that the row can convert to
+ if it can't convert to true/false, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ returns a true/false value that the row can convert to
+ if it can't convert to true/false, it displays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanMayBeEnteredIn(System.Windows.Forms.DataGridViewCellCollection,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ returns a true/false value that the grid cell can convert to
+ if it can't convert to true/false, it will return false
+ </summary>
+	<param name="cells"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BooleanMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ returns a true/false value that the row can convert to
+ if it can't convert to true/false, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BytesEnteredIn(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Enforces you to load an image that it returns 
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.BytesMayBeEnteredIn(System.Windows.Forms.Control)">
+	<summary>
+ Returns bytes of the loaded image, nothing is returned if control has no image
+ </summary>
+	<param name="sourceControl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImageEnteredIn(System.Data.DataRow,System.String,System.String)">
+	<summary>
+ Enforces you to have an image in the data row that it returns
+ if not entered, it displays error message with caption
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<param name="caption"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImageEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Enforces you to have an image in the data row that it returns
+ if not entered, it displays system error message
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImageMayBeEnteredIn(System.Data.DataRow,System.String)">
+	<summary>
+ Will return no image if none is in the row; otherwise it returns what’s entered
+ </summary>
+	<param name="row"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringRight(System.String,System.Char)">
+	<summary>
+ Returns the right part of the supplied string after search character. 
+ If Search Character is not found, entire string is returned.
+ </summary>
+	<param name="text"></param>
+	<param name="search"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringRight(System.String)">
+	<summary>
+ Returns the right part of the supplied string after the &gt; search character. 
+ If Search Character is not found, entire string is returned.
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringLeft(System.String,System.Char)">
+	<summary>
+ Returns the left part of the supplied string before search character. 
+ If search character is not found, entire string is returned.
+ </summary>
+	<param name="text"></param>
+	<param name="search"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SubstringLeft(System.String)">
+	<summary>
+ Returns the left part of the supplied string before the &gt; search character. 
+ If search character is not found, entire string is returned.
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.RevertText(System.String,System.Char)">
+	<summary>
+ Removes format character from text eg. 05-W-RW-RA1-1001-06 becomes 05WRWRA1100106
+ if - is the supplied character
+ </summary>
+	<param name="text"></param>
+	<param name="formatCHAR"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.RevertText(System.String)">
+	<summary>
+ Removes '-' format character from text 
+ eg. 05-W-RW-RA1-1001-06 becomes 05WRWRA1100106
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatDate(System.DateTime,System.String,System.Boolean)">
+	<summary>
+ Formats supplied date value to the supplied style and returns as per specified nulldateasempty value
+ </summary>
+	<param name="value"></param>
+	<param name="style"></param>
+	<param name="nullDateAsEmpty"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatDate(System.DateTime,System.String)">
+	<summary>
+ Formats supplied date value to the supplied style
+ </summary>
+	<param name="value"></param>
+	<param name="style"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatDate(System.DateTime,System.Boolean)">
+	<summary>
+ Formats supplied date value to d MMMM yyyy (e.g to 19 Aug 2006) and returns as per specified nullDateAsEmpty
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatDate(System.DateTime)">
+	<summary>
+ Formats supplied date value to d MMMM yyyy (e.g to 19 Aug 2006)
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatDateTime(System.DateTime,System.String)">
+	<summary>
+ Formats supplied date and time value to the supplied style
+ </summary>
+	<param name="value"></param>
+	<param name="style"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatDateTime(System.DateTime)">
+	<summary>
+ Formats supplied date and time value to dd MMM yyyy hh:mm tt (e.g to 19 Aug 2006 10:45 AM)
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetShortDate(System.DateTime)">
+	<summary>
+ Returns date value in the date short format
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetTime(System.DateTime)">
+	<summary>
+ Returns the time part of the supplied date value in the 24 Hour format
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatNumber(System.Double,System.Int32)">
+	<summary>
+ formats the supplied number by inseting comas and rounded to the supplied number of decimal places.
+ </summary>
+	<param name="number"></param>
+	<param name="decimalPlaces"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatNumber(System.Double)">
+	<summary>
+ formats the supplied number by inseting comas and rounded to the system number of decimal places.
+ </summary>
+	<param name="number"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatCurrency(System.Decimal,System.String)">
+	<summary>
+ formats supplied number to the supplied style currency settings
+ </summary>
+	<param name="number"></param>
+	<param name="style"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatCurrency(System.Decimal)">
+	<summary>
+ formats supplied number to the current applications currency settings
+ </summary>
+	<param name="number"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatPercent(System.Decimal,System.String)">
+	<summary>
+ formats the supplied number to percentage of supplied style
+ </summary>
+	<param name="number"></param>
+	<param name="style"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatPercent(System.Decimal)">
+	<summary>
+ formats the supplied number to system percentage style
+ </summary>
+	<param name="number"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatGridRow(System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewCellStyle,System.Int32)">
+	<summary>
+ Entire row of the grid will be formated to the supplied style
+ </summary>
+	<param name="grid"></param>
+	<param name="style"></param>
+	<param name="row"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatGridRow(System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewCellStyle)">
+	<summary>
+ The 10th row of the grid will be formated to the supplied style
+ </summary>
+	<param name="grid"></param>
+	<param name="style"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatGridRow(System.Windows.Forms.DataGridView)">
+	<summary>
+ The 10th row of the grid will be formated to the system style
+ </summary>
+	<param name="grid"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatGridColumn(System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewCellStyle,System.Type)">
+	<summary>
+ All the grid columns of a supplied datatype will be formated to the supplied style
+ </summary>
+	<param name="grid"></param>
+	<param name="style"></param>
+	<param name="dataType"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatGridColumn(System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewCellStyle)">
+	<summary>
+ All the grid columns of decimal datatype will be formated to the supplied style
+ </summary>
+	<param name="grid"></param>
+	<param name="style"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatGridColumn(System.Windows.Forms.DataGridView)">
+	<summary>
+ All the grid columns of decimal datatype will be formated to the system style
+ </summary>
+	<param name="grid"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.NumberToWords(System.Double)">
+	<summary>
+ Converts number to words e.g 1,000,000,002 to ONE BILLION TWO
+ </summary>
+	<param name="Number"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ExportToExcel(System.Object,System.String,System.String)">
+	<summary>
+ Exports the supplied data to excel, displaying supplied sheetName for Sheet Name
+ and documentTitle for title
+ Allows mainly DataTable, DataGridView, and ListView
+ </summary>
+	<param name="data"></param>
+	<param name="sheetName"></param>
+	<param name="documentTitle"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ExportToExcel(System.Object,System.String)">
+	<summary>
+ Exports the supplied data to excel, displaying supplied caption for caption
+ Allows mainly DataTable, DataGridView, and ListView
+ </summary>
+	<param name="data"></param>
+	<param name="sheetName"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ExportToExcel(System.Object)">
+	<summary>
+ Exports the supplied data to excel, displaying data for caption 
+ Allows mainly DataTable, DataGridView, and ListView
+ </summary>
+	<param name="data"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.EditSettingsFile(System.String,System.String)">
+	<summary>
+ Edits the configuration file
+ </summary>
+	<param name="settingsName"></param>
+	<param name="newValue"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FadeClosingForm(System.Windows.Forms.Form,System.Byte)">
+	<summary>
+ Function used to fade out a closing form using a user defined number of steps
+ </summary>
+	<param name="_Form"></param>
+	<param name="NumberOfSteps"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LogException(System.Exception,System.String)">
+	<summary>
+ Logs exception to the log file
+ </summary>
+	<param name="eX"></param>
+	<param name="logFile"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadImage(System.Windows.Forms.Control,System.Int64)">
+	<summary>
+ Browses for an Image that it loads into the supplied image control
+ the image should be equal to or below the set file size limit
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="fileSizeLimit"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadImage(System.Windows.Forms.Control)">
+	<summary>
+ Browses for an Image that it loads into the supplied image control
+ </summary>
+	<param name="sourceControl"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ReadBytes(System.String)">
+	<summary>
+ Returns bytes of a file from the supplied path
+ </summary>
+	<param name="path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ReadBytes(System.Drawing.Image)">
+	<summary>
+ Returns bytes of the supplied image
+ </summary>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.WriteBytes(System.Byte[],System.String)">
+	<summary>
+ Writes Bytes to the specified file path
+ </summary>
+	<param name="data"></param>
+	<param name="path"></param>
+	<returns>return true is write operation succeeds otherwise returns false</returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SaveImage(System.Drawing.Image,System.String)">
+	<summary>
+ Opens a save file dialog to save the supplied image as supplied file name
+ </summary>
+	<param name="data"></param>
+	<param name="fileName"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.SaveImage(System.Drawing.Image)">
+	<summary>
+ Opens a save file dialog to save the supplied image as Photo
+ </summary>
+	<param name="data"></param>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetImage(System.Byte[])">
+	<summary>
+ Returns an image for the supplied bytes
+ </summary>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImportFromExcel(System.String,System.String)">
+	<summary>
+ Imports data from Excel, by letting you supply the criterion (The worksheet name and range) 
+ that it returns as a datatable
+ </summary>
+	<param name="path"></param>
+	<param name="criterion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImportFromExcel(System.String)">
+	<summary>
+ Imports data from Excel (The whole range of Sheet1) that it returns as a datatable
+ </summary>
+	<param name="path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImportFromAccess(System.String,System.String,System.Collections.ArrayList,System.String)">
+	<summary>
+ Imports data from Access, that it returns as a datatable
+ </summary>
+	<param name="path"></param>
+	<param name="queryName"></param>
+	<param name="parameters"></param>
+	<param name="password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImportFromAccess(System.String,System.String,System.Collections.ArrayList)">
+	<summary>
+ Imports data from Access that has no set password, it returns as a datatable
+ </summary>
+	<param name="path"></param>
+	<param name="queryName"></param>
+	<param name="parameters"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ImportFromAccess(System.String,System.String)">
+	<summary>
+ Imports data from Access that has no set password and query parameters, it returns as a datatable
+ </summary>
+	<param name="path"></param>
+	<param name="queryName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CopyFromControl(System.Windows.Forms.Control)">
+	<summary>
+ Copies data from a control such as DataGridView, that is returns as tab separated string
+ The function does not copy column headers though
+ </summary>
+	<param name="_Control"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadGridData(System.Windows.Forms.DataGridView,System.Data.DataTable)">
+	<summary>
+ Loads a datagridview with the supplied datatable data, provided that the DataPropertyName
+ of the column has a correct data source column name that won't be populated if left blank. 
+ The function does not bind the grid to data source though
+ </summary>
+	<param name="grid"></param>
+	<param name="dataSource"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadGridData(System.Windows.Forms.DataGridView,System.Data.EnumerableRowCollection{System.Data.DataRow})">
+	<summary>
+ Loads a datagridview with the supplied EnumerableRowCollection data, provided that the DataPropertyName
+ of the column has a correct data source column name that won't be populated if left blank. 
+ The function does not bind the grid to data source though
+ </summary>
+	<param name="grid"></param>
+	<param name="dataSource"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ParseToScripts(System.String)">
+	<summary>
+ Formats SQL script for execution by servers
+ </summary>
+	<param name="script"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadComboData(System.Windows.Forms.Control,System.Data.DataTable,System.String)">
+	<summary>
+ Loads itemised data into the supplied control from the supplied datatable and column name
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="dataSource"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadComboData(System.Windows.Forms.Control,System.Data.DataTable,System.String,System.String)">
+	<summary>
+ Data binds the supplied control from the supplied datatable, value member and display member
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="dataSource"></param>
+	<param name="valueMember"></param>
+	<param name="displayMember"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadComboData(System.Windows.Forms.Control,System.Data.EnumerableRowCollection{System.Data.DataRow},System.String)">
+	<summary>
+ Loads itemised data into the supplied control from the supplied EnumerableRowCollection and column name
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="dataSource"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadComboData(System.Windows.Forms.DataGridViewComboBoxColumn,System.Data.DataTable,System.String)">
+	<summary>
+ Loads itemised data into the supplied DataGridViewComboBoxColumn from the supplied datatable and column name
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="dataSource"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadComboData(System.Windows.Forms.DataGridViewComboBoxColumn,System.Data.DataTable,System.String,System.String)">
+	<summary>
+ Data binds the supplied DataGridViewComboBoxColumn with the supplied datatable, value member and display member
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="dataSource"></param>
+	<param name="valueMember"></param>
+	<param name="displayMember"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.LoadComboData(System.Windows.Forms.DataGridViewComboBoxColumn,System.Data.EnumerableRowCollection{System.Data.DataRow},System.String)">
+	<summary>
+ Loads itemised data into the supplied DataGridViewComboBoxColumn from the supplied EnumerableRowCollection and column name
+ </summary>
+	<param name="comboBoxColumn"></param>
+	<param name="dataSource"></param>
+	<param name="columnName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatINCreterion(System.String,System.Char)">
+	<summary>
+ Formats the supplied split character separated value(s) to an IN clause form of SQL
+ </summary>
+	<param name="value"></param>
+	<param name="splitChar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FormatINCreterion(System.String)">
+	<summary>
+ Formats the comma separated value(s) to an IN clause form of SQL
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FixDataLength(System.String,System.Int32,SyncSoft.Common.Enumerations.PaddingDirection,System.Char)">
+	<summary>
+ Returns supplied data to afixed maximum supplied length.
+ If the data length is less that the maximum length the supplied pad character is appended as per supplied direction
+ </summary>
+	<param name="data"></param>
+	<param name="maxLength"></param>
+	<param name="padDirection"></param>
+	<param name="padChar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FixDataLength(System.String,System.Int32,SyncSoft.Common.Enumerations.PaddingDirection)">
+	<summary>
+ Returns supplied data to afixed maximum supplied length.
+ If the data length is less that the maximum length space is appended as per supplied direction
+ </summary>
+	<param name="test"></param>
+	<param name="maxLength"></param>
+	<param name="padDirection"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.FixDataLength(System.String,System.Int32)">
+	<summary>
+ Returns supplied data to afixed maximum supplied length.
+ If the data length is less that the maximum length space is appended after the last character
+ </summary>
+	<param name="test"></param>
+	<param name="maxLength"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetCharacters(System.Char,System.Int32)">
+	<summary>
+ Returns a string of the supplied character concatenated the supplied number of times
+ </summary>
+	<param name="character"></param>
+	<param name="number"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetSpaces(System.Int32)">
+	<summary>
+ Returns a string of spaces concatenated the supplied number of times
+ </summary>
+	<param name="number"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.WrapText(System.String,System.Int32)">
+	<summary>
+ Wraps supplied text as per supplied line length. It returns it as a list
+ </summary>
+	<param name="text"></param>
+	<param name="lineLength"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsBloodPressureValid(System.String)">
+	<summary>
+ Checks for upper and lower pressure values to ensure that they are at least with in agreed ranges
+ </summary>
+	<param name="bloodPressure"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CalculateBMI(System.Single,System.Single)">
+	<summary>
+ Calculates Body Mass Index (BMI)
+ </summary>
+	<param name="weight"></param>
+	<param name="height"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetDigitalPersonaTemplate(System.Byte[])">
+	<summary>
+ Returns digital persona template
+ </summary>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.GetFullName(System.String,System.String,System.String)">
+	<summary>
+ Returns FullName
+ </summary>
+	<param name="lastName"></param>
+	<param name="middleName"></param>
+	<param name="firstName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CalculateGridAmount(System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewColumn)">
+	<summary>
+ Calculates the total amount of the supplied grid column
+ </summary>
+	<param name="grid"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.IsClientMachineAlive(System.String)">
+	<summary>
+ Checks to see if suppliend client machine is active
+ </summary>
+	<param name="clientMachine"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CheckListItems(System.Windows.Forms.Control,System.String,System.Char)">
+	<summary>
+ Checks items in the supplied control by splitting the supplied data using supplied split character
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="data"></param>
+	<param name="splitChar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.CheckListItems(System.Windows.Forms.Control,System.String)">
+	<summary>
+  Checks items in the supplied control by splitting the supplied data using the default split character ","
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Methods.Common.ShowPasswordComplexity(System.String)">
+	<summary>
+ Strong password should have aminumum of 8 characters, contains a mixture of lower and upper case, have a digit and a special character included
+ Medium password should have aminumum of 6 characters, contains a mixture of lower and upper case, and have a digit included
+ </summary>
+	<param name="password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetValue">
+	<summary>
+ Gets a NumericBox value as object
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetShort">
+	<summary>
+ Gets a NumericBox value as short
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetInteger">
+	<summary>
+ Gets a NumericBox value as integer
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetLong">
+	<summary>
+ Gets a NumericBox value as long
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetSingle">
+	<summary>
+ Gets a NumericBox value as single
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetDouble">
+	<summary>
+ Gets a NumericBox value as double
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.NumericBox.GetDecimal(System.Boolean)">
+	<summary>
+ Gets a NumericBox value as decimal
+ </summary>
+	<param name="allowNegative"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Period.Period(System.DateTime)">
+	<summary>
+ manages periodic license, startdate not yet up
+ </summary>
+	<param name="startDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Period.Period(System.DateTime,System.Int32)">
+	<summary>
+ manages periodic license, endDate up
+ </summary>
+	<param name="endDate"></param>
+	<param name="warningDays"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Period.Period(System.Int32,System.String)">
+	<summary>
+ Manages maximun number of licensed records
+ </summary>
+	<param name="remainingRecords"></param>
+	<param name="keyTable"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Methods.Security.Encrypt(System.String,System.String)">
+	<summary>
+ Encrypts the supplied text with the supplied 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Methods.Security.Encrypt(System.String)">
+	<summary>
+ Encrypts the supplied text with system 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Methods.Security.Decrypt(System.String,System.String)">
+	<summary>
+ Decrypts the supplied encrypted text with the supplied 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Security.Methods.Security.Decrypt(System.String)">
+	<summary>
+ Decrypts the supplied encrypted text with system 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.EditButton.LoadData(System.Windows.Forms.Control)">
+	<summary>
+ Populates all controls with data from the underlying datatable
+ </summary>
+	<param name="container"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SyncSoft.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SyncSoft.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SyncSoft.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SyncSoft.Common.Win.Controls.SmartPictureBox.DeletePhoto">
+	<summary>
+ Deletes control's image
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.SmartPictureBox.LoadPhoto(System.Int64)">
+	<summary>
+ Loads an image of not more than fileSizeLimit bytes, into the control
+ </summary>
+	<param name="fileSizeLimit"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SyncSoft.Common.Win.Controls.DataOutlook.Clear">
+	<summary>
+ Clears the datatable associated with the control
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
