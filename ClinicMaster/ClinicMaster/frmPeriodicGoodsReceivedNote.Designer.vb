@@ -1,0 +1,362 @@
+
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmPeriodicGoodsReceivedNote : Inherits System.Windows.Forms.Form
+
+    Private Sub New()
+
+        ' This call is required by the Windows Form Designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+
+    Public Sub New(ByVal controlAlertNo As Control)
+        MyClass.New()
+        Me.alertNoControl = controlAlertNo
+    End Sub
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPeriodicGoodsReceivedNote))
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.fbnClose = New SyncSoft.Common.Win.Controls.FlatButton()
+        Me.dgvPeriodicGoodsReceivedNote = New System.Windows.Forms.DataGridView()
+        Me.cmsAlertList = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.cmsAlertListCopy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsAlertListSelectAll = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lblMessage = New System.Windows.Forms.Label()
+        Me.grpSetParameters = New System.Windows.Forms.GroupBox()
+        Me.pnlPeriod = New System.Windows.Forms.Panel()
+        Me.dtpEndDate = New System.Windows.Forms.DateTimePicker()
+        Me.lblStartDate = New System.Windows.Forms.Label()
+        Me.dtpStartDate = New System.Windows.Forms.DateTimePicker()
+        Me.lblEndDate = New System.Windows.Forms.Label()
+        Me.lblRecordsNo = New System.Windows.Forms.Label()
+        Me.fbnLoad = New SyncSoft.Common.Win.Controls.FlatButton()
+        Me.colGRNNo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colPurchaseOrderNo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colReceivedDate = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colAdviceNoteNo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colDeliveryLocation = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ColSupplier = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colGRNAmount = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colRecordDate = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colRecordTime = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.dgvPeriodicGoodsReceivedNote, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.cmsAlertList.SuspendLayout()
+        Me.grpSetParameters.SuspendLayout()
+        Me.pnlPeriod.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'fbnClose
+        '
+        Me.fbnClose.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.fbnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.fbnClose.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue
+        Me.fbnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.fbnClose.Location = New System.Drawing.Point(728, 347)
+        Me.fbnClose.Name = "fbnClose"
+        Me.fbnClose.Size = New System.Drawing.Size(72, 24)
+        Me.fbnClose.TabIndex = 3
+        Me.fbnClose.Text = "&Close"
+        Me.fbnClose.UseVisualStyleBackColor = False
+        '
+        'dgvPeriodicGoodsReceivedNote
+        '
+        Me.dgvPeriodicGoodsReceivedNote.AllowUserToAddRows = False
+        Me.dgvPeriodicGoodsReceivedNote.AllowUserToDeleteRows = False
+        Me.dgvPeriodicGoodsReceivedNote.AllowUserToOrderColumns = True
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke
+        DataGridViewCellStyle1.FormatProvider = New System.Globalization.CultureInfo("en-GB")
+        Me.dgvPeriodicGoodsReceivedNote.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.dgvPeriodicGoodsReceivedNote.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dgvPeriodicGoodsReceivedNote.BackgroundColor = System.Drawing.Color.GhostWhite
+        Me.dgvPeriodicGoodsReceivedNote.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.dgvPeriodicGoodsReceivedNote.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText
+        Me.dgvPeriodicGoodsReceivedNote.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.FormatProvider = New System.Globalization.CultureInfo("en-GB")
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvPeriodicGoodsReceivedNote.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.dgvPeriodicGoodsReceivedNote.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colGRNNo, Me.colPurchaseOrderNo, Me.colReceivedDate, Me.colAdviceNoteNo, Me.colDeliveryLocation, Me.ColSupplier, Me.colGRNAmount, Me.colRecordDate, Me.colRecordTime})
+        Me.dgvPeriodicGoodsReceivedNote.ContextMenuStrip = Me.cmsAlertList
+        Me.dgvPeriodicGoodsReceivedNote.EnableHeadersVisualStyles = False
+        Me.dgvPeriodicGoodsReceivedNote.GridColor = System.Drawing.Color.Khaki
+        Me.dgvPeriodicGoodsReceivedNote.Location = New System.Drawing.Point(8, 86)
+        Me.dgvPeriodicGoodsReceivedNote.Name = "dgvPeriodicGoodsReceivedNote"
+        Me.dgvPeriodicGoodsReceivedNote.ReadOnly = True
+        Me.dgvPeriodicGoodsReceivedNote.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.Silver
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.FormatProvider = New System.Globalization.CultureInfo("en-GB")
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvPeriodicGoodsReceivedNote.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        Me.dgvPeriodicGoodsReceivedNote.RowHeadersVisible = False
+        Me.dgvPeriodicGoodsReceivedNote.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
+        Me.dgvPeriodicGoodsReceivedNote.Size = New System.Drawing.Size(792, 252)
+        Me.dgvPeriodicGoodsReceivedNote.TabIndex = 1
+        Me.dgvPeriodicGoodsReceivedNote.Text = "DataGridView1"
+        '
+        'cmsAlertList
+        '
+        Me.cmsAlertList.BackColor = System.Drawing.Color.GhostWhite
+        Me.cmsAlertList.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsAlertListCopy, Me.cmsAlertListSelectAll})
+        Me.cmsAlertList.Name = "cmsSearch"
+        Me.cmsAlertList.Size = New System.Drawing.Size(123, 48)
+        '
+        'cmsAlertListCopy
+        '
+        Me.cmsAlertListCopy.Enabled = False
+        Me.cmsAlertListCopy.Image = CType(resources.GetObject("cmsAlertListCopy.Image"), System.Drawing.Image)
+        Me.cmsAlertListCopy.Name = "cmsAlertListCopy"
+        Me.cmsAlertListCopy.Size = New System.Drawing.Size(122, 22)
+        Me.cmsAlertListCopy.Text = "Copy"
+        Me.cmsAlertListCopy.ToolTipText = "To copy with column headings, use Ctrl+C key combination"
+        '
+        'cmsAlertListSelectAll
+        '
+        Me.cmsAlertListSelectAll.Enabled = False
+        Me.cmsAlertListSelectAll.Name = "cmsAlertListSelectAll"
+        Me.cmsAlertListSelectAll.Size = New System.Drawing.Size(122, 22)
+        Me.cmsAlertListSelectAll.Text = "Select All"
+        '
+        'lblMessage
+        '
+        Me.lblMessage.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.lblMessage.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMessage.ForeColor = System.Drawing.Color.DarkBlue
+        Me.lblMessage.Location = New System.Drawing.Point(237, 351)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(301, 20)
+        Me.lblMessage.TabIndex = 2
+        Me.lblMessage.Text = "Hint: double click to quickly select"
+        Me.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'grpSetParameters
+        '
+        Me.grpSetParameters.Controls.Add(Me.pnlPeriod)
+        Me.grpSetParameters.Controls.Add(Me.lblRecordsNo)
+        Me.grpSetParameters.Controls.Add(Me.fbnLoad)
+        Me.grpSetParameters.Location = New System.Drawing.Point(7, 4)
+        Me.grpSetParameters.Name = "grpSetParameters"
+        Me.grpSetParameters.Size = New System.Drawing.Size(791, 63)
+        Me.grpSetParameters.TabIndex = 0
+        Me.grpSetParameters.TabStop = False
+        Me.grpSetParameters.Text = "GRN Period"
+        '
+        'pnlPeriod
+        '
+        Me.pnlPeriod.Controls.Add(Me.dtpEndDate)
+        Me.pnlPeriod.Controls.Add(Me.lblStartDate)
+        Me.pnlPeriod.Controls.Add(Me.dtpStartDate)
+        Me.pnlPeriod.Controls.Add(Me.lblEndDate)
+        Me.pnlPeriod.Location = New System.Drawing.Point(5, 17)
+        Me.pnlPeriod.Name = "pnlPeriod"
+        Me.pnlPeriod.Size = New System.Drawing.Size(594, 31)
+        Me.pnlPeriod.TabIndex = 4
+        '
+        'dtpEndDate
+        '
+        Me.dtpEndDate.Location = New System.Drawing.Point(397, 5)
+        Me.dtpEndDate.Name = "dtpEndDate"
+        Me.dtpEndDate.ShowCheckBox = True
+        Me.dtpEndDate.Size = New System.Drawing.Size(184, 20)
+        Me.dtpEndDate.TabIndex = 3
+        '
+        'lblStartDate
+        '
+        Me.lblStartDate.Location = New System.Drawing.Point(10, 5)
+        Me.lblStartDate.Name = "lblStartDate"
+        Me.lblStartDate.Size = New System.Drawing.Size(83, 20)
+        Me.lblStartDate.TabIndex = 0
+        Me.lblStartDate.Text = "Start Date"
+        Me.lblStartDate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'dtpStartDate
+        '
+        Me.dtpStartDate.Location = New System.Drawing.Point(103, 5)
+        Me.dtpStartDate.Name = "dtpStartDate"
+        Me.dtpStartDate.ShowCheckBox = True
+        Me.dtpStartDate.Size = New System.Drawing.Size(184, 20)
+        Me.dtpStartDate.TabIndex = 1
+        '
+        'lblEndDate
+        '
+        Me.lblEndDate.Location = New System.Drawing.Point(296, 5)
+        Me.lblEndDate.Name = "lblEndDate"
+        Me.lblEndDate.Size = New System.Drawing.Size(89, 20)
+        Me.lblEndDate.TabIndex = 2
+        Me.lblEndDate.Text = "End Date"
+        Me.lblEndDate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblRecordsNo
+        '
+        Me.lblRecordsNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblRecordsNo.ForeColor = System.Drawing.Color.Blue
+        Me.lblRecordsNo.Location = New System.Drawing.Point(603, 13)
+        Me.lblRecordsNo.Name = "lblRecordsNo"
+        Me.lblRecordsNo.Size = New System.Drawing.Size(178, 13)
+        Me.lblRecordsNo.TabIndex = 3
+        Me.lblRecordsNo.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'fbnLoad
+        '
+        Me.fbnLoad.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue
+        Me.fbnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.fbnLoad.Location = New System.Drawing.Point(675, 29)
+        Me.fbnLoad.Name = "fbnLoad"
+        Me.fbnLoad.Size = New System.Drawing.Size(106, 28)
+        Me.fbnLoad.TabIndex = 5
+        Me.fbnLoad.Text = "Load..."
+        '
+        'colGRNNo
+        '
+        Me.colGRNNo.DataPropertyName = "GRNNo"
+        Me.colGRNNo.HeaderText = "GRN No"
+        Me.colGRNNo.Name = "colGRNNo"
+        Me.colGRNNo.ReadOnly = True
+        Me.colGRNNo.Width = 80
+        '
+        'colPurchaseOrderNo
+        '
+        Me.colPurchaseOrderNo.DataPropertyName = "PurchaseOrderNo"
+        Me.colPurchaseOrderNo.HeaderText = "Order No"
+        Me.colPurchaseOrderNo.Name = "colPurchaseOrderNo"
+        Me.colPurchaseOrderNo.ReadOnly = True
+        Me.colPurchaseOrderNo.Width = 80
+        '
+        'colReceivedDate
+        '
+        Me.colReceivedDate.DataPropertyName = "ReceivedDate"
+        Me.colReceivedDate.HeaderText = "Received Date"
+        Me.colReceivedDate.Name = "colReceivedDate"
+        Me.colReceivedDate.ReadOnly = True
+        '
+        'colAdviceNoteNo
+        '
+        Me.colAdviceNoteNo.DataPropertyName = "AdviceNoteNo"
+        Me.colAdviceNoteNo.HeaderText = "Advice Note No"
+        Me.colAdviceNoteNo.Name = "colAdviceNoteNo"
+        Me.colAdviceNoteNo.ReadOnly = True
+        '
+        'colDeliveryLocation
+        '
+        Me.colDeliveryLocation.DataPropertyName = "DeliveryLocation"
+        Me.colDeliveryLocation.HeaderText = "Delivery Location"
+        Me.colDeliveryLocation.Name = "colDeliveryLocation"
+        Me.colDeliveryLocation.ReadOnly = True
+        Me.colDeliveryLocation.Width = 120
+        '
+        'ColSupplier
+        '
+        Me.ColSupplier.DataPropertyName = "SupplierName"
+        Me.ColSupplier.HeaderText = "Supplier"
+        Me.ColSupplier.Name = "ColSupplier"
+        Me.ColSupplier.ReadOnly = True
+        '
+        'colGRNAmount
+        '
+        Me.colGRNAmount.DataPropertyName = "GRNAmount"
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.colGRNAmount.DefaultCellStyle = DataGridViewCellStyle3
+        Me.colGRNAmount.HeaderText = "GRN Amount"
+        Me.colGRNAmount.Name = "colGRNAmount"
+        Me.colGRNAmount.ReadOnly = True
+        '
+        'colRecordDate
+        '
+        Me.colRecordDate.DataPropertyName = "RecordDate"
+        Me.colRecordDate.HeaderText = "Record Date"
+        Me.colRecordDate.Name = "colRecordDate"
+        Me.colRecordDate.ReadOnly = True
+        Me.colRecordDate.Width = 80
+        '
+        'colRecordTime
+        '
+        Me.colRecordTime.DataPropertyName = "RecordTime"
+        Me.colRecordTime.HeaderText = "Record Time"
+        Me.colRecordTime.Name = "colRecordTime"
+        Me.colRecordTime.ReadOnly = True
+        Me.colRecordTime.Width = 75
+        '
+        'frmPeriodicGoodsReceivedNote
+        '
+        Me.AcceptButton = Me.fbnLoad
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.fbnClose
+        Me.ClientSize = New System.Drawing.Size(810, 383)
+        Me.Controls.Add(Me.grpSetParameters)
+        Me.Controls.Add(Me.lblMessage)
+        Me.Controls.Add(Me.dgvPeriodicGoodsReceivedNote)
+        Me.Controls.Add(Me.fbnClose)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.KeyPreview = True
+        Me.MinimizeBox = False
+        Me.Name = "frmPeriodicGoodsReceivedNote"
+        Me.Tag = ""
+        Me.Text = "Periodic Goods Received Note"
+        CType(Me.dgvPeriodicGoodsReceivedNote, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.cmsAlertList.ResumeLayout(False)
+        Me.grpSetParameters.ResumeLayout(False)
+        Me.pnlPeriod.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+
+    Friend WithEvents fbnClose As SyncSoft.Common.Win.Controls.FlatButton
+    Friend WithEvents dgvPeriodicGoodsReceivedNote As System.Windows.Forms.DataGridView
+    Friend WithEvents cmsAlertList As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents cmsAlertListCopy As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents cmsAlertListSelectAll As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents lblMessage As System.Windows.Forms.Label
+    Friend WithEvents grpSetParameters As System.Windows.Forms.GroupBox
+    Friend WithEvents dtpEndDate As System.Windows.Forms.DateTimePicker
+    Friend WithEvents lblEndDate As System.Windows.Forms.Label
+    Friend WithEvents fbnLoad As SyncSoft.Common.Win.Controls.FlatButton
+    Friend WithEvents dtpStartDate As System.Windows.Forms.DateTimePicker
+    Friend WithEvents lblStartDate As System.Windows.Forms.Label
+    Friend WithEvents lblRecordsNo As System.Windows.Forms.Label
+    Friend WithEvents pnlPeriod As System.Windows.Forms.Panel
+    Friend WithEvents colGRNNo As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colPurchaseOrderNo As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colReceivedDate As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colAdviceNoteNo As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colDeliveryLocation As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ColSupplier As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colGRNAmount As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colRecordDate As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents colRecordTime As System.Windows.Forms.DataGridViewTextBoxColumn
+
+End Class

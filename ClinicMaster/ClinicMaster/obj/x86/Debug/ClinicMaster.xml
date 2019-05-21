@@ -1,0 +1,197 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClinicMaster
+</name>
+</assembly>
+<members>
+<member name="F:ClinicMaster.frmSales._OPDtotalVAT">
+ '''''''''''''''''''''''''''''''''''''''''''
+
+</member><member name="F:ClinicMaster.frmSales.docPhysicalStockCount">
+	<summary>
+ ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+ </summary>
+</member><member name="M:ClinicMaster.modClinicMaster.GetAgeString(System.DateTime,System.Boolean)">
+	<summary>
+ Gets full age string with no years if exclude years is set to true
+ </summary>
+	<param name="birthDate"></param>
+	<param name="excludeYears"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetAgeString(System.DateTime)">
+	<summary>
+ Gets full age string
+ </summary>
+	<param name="birthDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetPatientFingerprints(System.String)">
+	<summary>
+ Gets patient fingerprint for supplied patient no
+ </summary>
+	<param name="patientNo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetPatientFingerprints">
+	<summary>
+ Gets patient fingerprints
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetLabResultsFingerprints">
+	<summary>
+ Gets patient fingerprints
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetPolicyLimit(System.String,System.String)">
+	<summary>
+ Gets Policy Limit Amount
+ </summary>
+	<param name="medicalCardNo"></param>
+	<param name="benefitCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetPolicyConsumedAmount(System.String,System.String)">
+	<summary>
+ Gets Policy Consumed Amount
+ </summary>
+	<param name="medicalCardNo"></param>
+	<param name="benefitCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetMemberPremiumBalance(System.String,System.String)">
+	<summary>
+ Get Member Premium Balance
+ </summary>
+	<param name="patientNo"></param>
+	<param name="companyNo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetMemberPremiumUsageBalance(System.String)">
+	<summary>
+ Get Member Premium Usage Balance
+ </summary>
+	<param name="MainMemberNo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.IsPatientSchemeMember(System.String)">
+	<summary>
+ Check if a Patient is a scheme Member
+ </summary>
+	<param name="MedicalCardNo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.GetPrintableItemCategoryDes(System.String)">
+	<summary>
+ Gets printable format of item category description
+ </summary>
+	<param name="dataName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.modClinicMaster.IsSmartCardPatientAuthorized(System.String,System.String,System.String,System.DateTime)">
+	<summary>
+  checks if patient is authorised for specific date
+ </summary>
+	<param name="patientNo"></param>
+	<param name="billModesID"></param>
+	<param name="billNo"></param>
+	<param name="toVisitDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.DataSecurity.Encrypt(System.String,System.String)">
+	<summary>
+ Encrypts the supplied text with the supplied 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.DataSecurity.Encrypt(System.String)">
+	<summary>
+ Encrypts the supplied text with system 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.DataSecurity.Decrypt(System.String,System.String)">
+	<summary>
+ Decrypts the supplied encrypted text with the supplied 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ClinicMaster.DataSecurity.Decrypt(System.String)">
+	<summary>
+ Decrypts the supplied encrypted text with system 8 character lenght key 
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ClinicMaster.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ClinicMaster.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ClinicMaster.My.Resources.Resources.DisableConstraints">
+	<summary>
+  Looks up a localized string similar to 
+use ClinicMaster
+go
+
+-------Disable Constraints------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+---------------ARTRegimen-------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+
+if exists (select * from sysobjects where name = 'fkVisitNoARTRegimen')
+	alter table ARTRegimen
+	drop co [rest of string was truncated]";.
+</summary>
+</member><member name="P:ClinicMaster.My.Resources.Resources.EnableConstraints">
+	<summary>
+  Looks up a localized string similar to 
+use ClinicMaster
+go
+
+------Enable Constraints-------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+---------------ARTRegimen-------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+
+if exists (select * from sysobjects where name = 'fkVisitNoARTRegimen')
+	alter table ARTRegimen
+	drop con [rest of string was truncated]";.
+</summary>
+</member><member name="P:ClinicMaster.My.Resources.Resources.Utilities">
+	<summary>
+  Looks up a localized string similar to 
+/***************************************************************
+This Script is a property of ClinicMaster INTERNATIONAL
+Un authorised use or ammendment is not permitted
+-- Last updated 10/02/2016 by Wilson Kutegeka
+***************************************************************/
+
+use ClinicMaster
+go
+
+------------------------------------------------------------------------------------------------------
+---------------------- Functions -&gt; Triggers -&gt; Views ---------------------------------------- [rest of string was truncated]";.
+</summary>
+</member><member name="T:ClinicMaster.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
