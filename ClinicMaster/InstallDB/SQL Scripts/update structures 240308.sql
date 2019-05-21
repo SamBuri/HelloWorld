@@ -13003,7 +13003,7 @@ exec uspEditOptions 'MaximumDrugQtyToGive', 100, '3NUM', 4, 0
 exec uspEditOptions 'MaximumConsumableQtyToGive', 200, '3NUM', 4, 0
 exec uspEditOptions 'MaximumExtraChargeQtyToIssue', 200, '3NUM', 4, 0
 
-
+-----------------------------21---MAY-2019------------------------------------------------------
 drop proc uspGetAverageAgeItemConsumption
 drop function GetAverageAgeItemConsumption
 drop proc uspGetAverageItemConsumption
